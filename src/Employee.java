@@ -16,4 +16,27 @@ public class Employee {
     public String getFirstName() {
         return firstName;
     }
+    public String getLastName() {
+        return lastName;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public String getDepartment() {
+        return department;
+    }
+    public int getId() {
+        return id;
+    }
+
+     @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", department='" + department + '\'' +
+                '}';
+    }
 }
